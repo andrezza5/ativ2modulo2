@@ -1,0 +1,28 @@
+Algoritmo "insertion sort"
+
+imprimir(inteiro vet[], inteiro tam) {
+	inteiro i
+		para(i = 0; i<tam; i++)
+			escreva(vet[i], " ")
+		escreva("\n")
+
+Inicio
+
+Var
+
+inteiro : vet[30] = {9,11,23,7,15,27,5,3,13,17,21,19,1,33,25,59,29,31,41,57,37,35,55,43,47,53,51,45,49,39}
+
+cópia, indice, i : inteiro
+
+imprimir (vet , 30)
+
+para(i = 1; i<30; i++){
+	copia = vet[i]
+	indice = i
+}
+	enquanto(indice > 0 e vet[indice - 1] > copia){
+		vet [indice] = vet [indice - 1]
+		indice -- }
+			vet [indice] = copia
+
+imprimir (vet , 30)
